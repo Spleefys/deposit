@@ -19,6 +19,6 @@ enum Periods{
     twenty = 365
 };
 
-void check(int sum, int time, int *n);
+int check(int sum, int time);
 
 #endif

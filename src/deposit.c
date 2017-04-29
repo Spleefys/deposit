@@ -1,10 +1,11 @@
 #include "deposit.h"
 
-void check(int sum, int time, int *n){
+int check(int sum, int time){
     if (time > date || sum < depos){
-        *n = 0;
+        return 1;
+        fflush(stdout);
     }
     else{
-        *n = 1;
+        return 0;
     }
 }
