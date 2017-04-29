@@ -4,8 +4,8 @@
 #include <stdio.h>
 
 enum {
-    date 365,
-    depos 10000
+    date = 365,
+    depos = 10000
 };
 
 enum Periods{
