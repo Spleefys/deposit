@@ -20,5 +20,6 @@ enum Periods{
 };
 
 int check(int sum, int time);
+float profit(int sum, int time);
 
 #endif
