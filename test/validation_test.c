@@ -7,7 +7,7 @@ CTEST(arithmetic_suite, test_1){
 
 	const int result = check(money, time);
 
-	const int i = 0;
+	const int i = 1;
 	ASSERT_EQUAL(i, result);
 }
 
@@ -18,7 +18,7 @@ CTEST(arithmetic_suite, test_2)
 
 	const int result = check(money, time);
 
-	const int i = 1;
+	const int i = 0;
 	ASSERT_EQUAL(i, result);
 }
 
